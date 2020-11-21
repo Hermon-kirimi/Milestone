@@ -1,0 +1,65 @@
+#wrapper{
+    width:800px;
+    height:600px;
+    background-color:black;
+    position: relative;
+    margin:0 auto;
+}
+
+#header{
+    width:800px;
+    height:100px;
+    background-color:yellow;
+
+}
+#nav{
+    width:800px;
+    height:50px;
+    background-color:red;
+}
+#content{
+    width:600px;
+    height:400px ;
+    background-color:black;
+}
+#sidebar{
+    widows: 200px;
+    height:400px;
+    background-color:green;
+    position: absolute;
+    top: 150px;
+    right:0;
+
+}
+#footer{
+    width:800px;
+    height:50px;
+    background-color:purple;
+}
+body {
+    font-family: Garamond;
+    background-color: #06f04c;
+    color:rgb(221, 250, 210);
+    text-align: center;
+}
+#navbar {
+    background-color: indianred;
+    color: ivory;
+    min-height:50px;
+    line-height:50px;
+    margin:0 auto;
+    display: flex;
+    flex-direction:row;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+#jumbotron {
+    background-color:blue;
+    margin: 0 auto;
+    padding: 150px;
+    color: rgb(221, 250, 210);
+    display: flex;
+
+}
